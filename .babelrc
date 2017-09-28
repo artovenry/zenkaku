@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "transform-es2015-template-literals",
+    "babel-plugin-espower"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": { "node": 7 },
+        "modules": false
+      }
+    ]
+  ]
+}
